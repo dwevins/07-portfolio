@@ -1,6 +1,10 @@
-// @import 'yoga';
-// @import 'normalize';
-
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
+
+$black: #000;
+$white: #fff;
+$gutter: 1rem;
+
 @import 'box-sizing';
+@import 'resets';
+@import 'header';
