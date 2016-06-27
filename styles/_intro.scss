@@ -4,18 +4,19 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: $gutter;
+  padding: 4 * $gutter;
   background-color: $blue;
 
   &__item {
-    margin: 0;
+    margin: 0.5 * $gutter;
+    text-transform: uppercase;
 
     &--title {
       font-size: 3rem;
     }
 
     &--blurb {
-      margin: 0;
+      color: $white;
       font-size: 1rem;
     }
   }
