@@ -4,13 +4,19 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  padding: $gutter;
+  background-color: $blue;
 
+  &__item {
+    margin: 0;
 
-  &__title {
-    font-size: 3rem;
-  }
+    &--title {
+      font-size: 3rem;
+    }
 
-  &__blurb {
-    font-size: 1rem;
+    &--blurb {
+      margin: 0;
+      font-size: 1rem;
+    }
   }
 }
