@@ -1,6 +1,10 @@
 .projects {
   background: #fe8cca;
 
+  &__heading {
+    text-align: center;
+  }
+
   &__item {
     background: #5d6318;
   }
