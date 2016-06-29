@@ -1,13 +1,11 @@
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
-
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 $black: #000;
 $white: #fff;
 $blue: #41d0e1;
 $gutter: 1rem;
 $content-max: 60rem;
 
-
+@import 'font-awesome';
 @import 'box-sizing';
 @import 'resets';
 @import 'header';
