@@ -13,9 +13,16 @@ html {
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
+
 }
 
 .projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   max-width: 60rem;
 }
