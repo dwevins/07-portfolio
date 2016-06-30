@@ -1,14 +1,15 @@
 .projects {
-  background: #fe8cca;
+  background: #f0e771;
 
   &__heading {
     text-align: center;
   }
 
   &__item {
+    background: #9a71ec;
     display: flex;
     flex-direction: row;
-    background: #5d6318;
+    width: 100%;
 
     &--even {
       flex-direction: row-reverse;
@@ -17,12 +18,10 @@
 }
 
 .item__text {
-  background: #a2d5e2;
   width: 50%;
 }
 
 .item__screen {
-  background: #5f78b5;
   width: 50%;
 
   &--img {
