@@ -1,0 +1,15 @@
+.projects-main {
+  flex-grow: 1;
+
+  &__row {
+    width: 100%;
+  }
+}
+
+.even {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.odd {
+  display: flex;
+}
