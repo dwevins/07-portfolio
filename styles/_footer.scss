@@ -1,0 +1,13 @@
+.footer {
+  background-color: $black;
+  color: $white;
+
+  &__links {
+    display: flex;
+    justify-content: center;
+
+    &--item {
+      width: calc((0.75 * #{$max-content-width}) / 7);
+    }
+  }
+}
