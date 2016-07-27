@@ -1,0 +1,15 @@
+.navbar {
+  background: $black;
+  color: $white;
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    &--item {
+      width: calc((0.75 * #{$max-content-width}) / 4);
+      margin: 0;
+    }
+  }
+}
