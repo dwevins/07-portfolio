@@ -1,3 +1,41 @@
-@media screen and (max-width: 1024px) {
+//tablet mode MQ trigger
+@media screen and (max-width: 768px) {
+  .projects-main__row--item {
+    display: flex;
+    justify-content: space-between;
+  }
 
+  .project__image {
+    display: flex;
+    align-items: center;
+    width: 50%;
+
+    &--img {
+      width: 100%;
+    }
+  }
+
+  .project__description {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .projects-main__row--item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .project__image {
+    width: 100%;
+
+    &--img {
+      width: 100%;
+    }
+  }
+
+  .project__description {
+    width: 100%;
+  }
 }
