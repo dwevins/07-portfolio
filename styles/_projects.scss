@@ -6,7 +6,9 @@
     width: 100%;
 
     &--item {
-      text-align: justify;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
   }
 }
@@ -18,4 +20,17 @@
 
 .odd {
   display: flex;
+}
+
+.project__image {
+  width: 30%;
+  min-width: $min-content-width;
+
+  &--img {
+    width: 100%;
+  }
+}
+
+.project__description {
+  text-align: justify;
 }
