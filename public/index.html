@@ -1,11 +1,78 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>07-portfolio</title>
   <link rel="stylesheet" href="/app.css">
 </head>
-<body>
 
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <ul class="navbar__list">
+        <li class="navbar__list--item"><img src="img/logo.svg" alt="" class="logo header-logo"></li>
+        <li class="navbar__list--item"><span>Woody Evins</span></li>
+        <li class="navbar__list--item"><a href='/'>My Projects</a></li>
+        <li class="navbar__list--item"><a href='/city.html'>My City</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header class="header">
+    <div class="container">
+      <div class="header__contents">
+        <h1 class="header__contents--title">Student at The Iron Yard</h1>
+        <p class="header__contents--blurb">As a student, I have the opportunity to learn new front-end web design technologies</p>
+      </div>
+    </div>
+  </header>
+  <main class="projects-main">
+    <div class="container">
+      <div class="projects-main__row">
+        <div class="projects-main__row--item even">
+          <div class="project__image">
+            <img src="img/breweries.png" alt="" class="project__image--img">
+            </div>
+          <div class="project__description">
+            <p class="project__description--text">
+              This app displays a list of breweries fetched from the BreweryDB API.
+            </p>
+          </div>
+        </div>
+        <div class="projects-main__row--item odd">
+          <div class="project__image">
+            <img src="img/puppies.png" alt="" class="project__image--img">
+            </div>
+          <div class="project__description">
+            <p class="project__description--text">
+              This app can create, read, update, and delete from a list of puppies stored remotely on Heroku
+            </p>
+          </div>
+        </div>
+        <div class="projects-main__row--item even">
+          <div class="project__image">
+            <img src="img/runtimer.png" alt="" class="project__image--img">
+            </div>
+          <div class="project__description">
+            <p class="project__description--text">
+              This app allows users to add to a list of runs, each containing the time, date, and notes about the run.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer__links">
+        <li class="footer__links--item"><a href='http://www.twitter.com'><span class="fa fa-twitter"></span></a></li>
+        <li class="footer__links--item"><a href='http://www.facebook.com'><span class="fa fa-facebook-f"></span></a></li>
+        <li class="footer__links--item"><img src="img/logo.svg" alt="" class="logo footer-logo"></li>
+        <li class="footer__links--item"><a href='http://www.github.com'><span class="fa fa-github"></span></a></li>
+        <li class="footer__links--item"><a href='http://www.linkedin.com'><span class="fa fa-linkedin"></span></a></li>
+      </ul>
+    </div>
+  </footer>
 </body>
+
 </html>

@@ -6,8 +6,14 @@ html {
 * {
   box-sizing: inherit;
 
-  &:before,
-  &:after {
+  &::before,
+  &::after {
     box-sizing: inherit;
   }
+}
+
+.container {
+  width: calc(100% - #{$gutter});
+  max-width: $max-content-width;
+  margin: 0 auto;
 }
