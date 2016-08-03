@@ -14,9 +14,9 @@
 
   &-long {
     position: relative;
+    flex-grow: 1;
     width: calc(75% - 2rem);
     min-width: $min-content-width;
-    max-width: 2 * $min-content-width;
     margin: 0 1rem;
   }
 
@@ -24,7 +24,6 @@
     position: relative;
     width: calc(25% - 2rem);
     min-width: $min-content-width;
-    max-width: 2 * $min-content-width;
     margin: 0 1rem;
   }
 
@@ -43,6 +42,7 @@
   transition: opacity 0.25s ease;
   background-color: $black-transparent;
   opacity: 0;
+  z-index: 9999;
 
   &:hover {
     opacity: 1;
